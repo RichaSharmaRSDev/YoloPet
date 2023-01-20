@@ -1,0 +1,99 @@
+.petGallery {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.banner {
+  position: sticky;
+  top: 0px;
+  background-color: #63afbf;
+}
+.shopName {
+  font-size: 40px;
+  font-style: italic;
+}
+.petHeading {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+.shopName,
+.petHeading {
+  color: white;
+  text-align: center;
+}
+
+.petContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #c8edf7;
+}
+
+.petContainer .petCards {
+  margin: 10px;
+  text-align: center;
+}
+.petContainer .petCards .imageCont {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.petContainer .petCards img {
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.petName,
+.petAge {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.petName {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.petAge{
+  font-size: 20px;
+}
+
+.type,
+.gender {
+  text-transform: capitalize;
+}
+
+.cardButton {
+  background-color: #fdfd96;
+  border-radius: 25px;
+  color: black;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.additionalDetails {
+  display: none;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.additionalDetails.active {
+  display: block;
+}
+
+.additionalDetails p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
